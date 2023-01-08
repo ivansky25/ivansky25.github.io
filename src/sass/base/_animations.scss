@@ -1,0 +1,37 @@
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes boot {
+  from {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(0);
+    transform: scale(1.2);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes cup {
+  from {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: translateX(0);
+    transform: scale(1.2);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}

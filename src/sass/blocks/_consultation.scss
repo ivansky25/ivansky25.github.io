@@ -1,0 +1,32 @@
+.consultation {
+  background: url(../img/bg2.png) center (center/cover) no-repeat;
+  padding: 100px 0 106px;
+  &__title {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+  }
+  &__descr {
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+  }
+  .error {
+    border: 1px solid  red
+  }
+  label.error {
+    color:#FFFFFF;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}

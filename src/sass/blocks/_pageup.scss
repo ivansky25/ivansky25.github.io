@@ -1,0 +1,27 @@
+.pageup {
+  display: none;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+  &_arrov {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    background-color: $main-color;
+    border-radius: 100%;
+    &::after {
+      content:'';
+      position: absolute;
+      top: calc(50% - 4px);
+      left: calc(50% - 7px);
+      width: 10px;
+      height: 10px;
+  
+      border-top: 4px solid #fff;
+      border-right: 4px solid #fff;
+      transform: rotate(-45deg);
+  
+    }
+  }
+}
