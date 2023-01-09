@@ -337,6 +337,9 @@
       .feed-form {
         width: 245px;
         margin: 25px auto 0;
+      &__mini {
+        min-height: 140px;
+      }
       }
       &__close {
         top: 4px;
