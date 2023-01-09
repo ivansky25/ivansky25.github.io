@@ -30,6 +30,9 @@
 
 @media (max-width: 991.98px) {
   .promo {
+    button {
+      font-size: 11px;
+    }
     &__title {
       font-size: 36px;
     }
@@ -334,12 +337,12 @@
       padding: 25px 10px 25px;
       width: 300px;
       min-height: 380px;
-      .feed-form {
-        width: 245px;
-        margin: 25px auto 0;
       &__mini {
         min-height: 140px;
       }
+      .feed-form {
+        width: 245px;
+        margin: 25px auto 0;
       }
       &__close {
         top: 4px;
